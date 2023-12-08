@@ -123,6 +123,8 @@ function createReadableStream(
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
+    console.log("llm api request body", body);
+
     const {
       message,
       chatHistory: messages,
@@ -151,6 +153,7 @@ export async function POST(request: NextRequest) {
       temperature: config.temperature,
       topP: config.topP,
       maxTokens: config.maxTokens,
+      maxRetries: 1,
     });
 
     const serviceContext = serviceContextFromDefaults({

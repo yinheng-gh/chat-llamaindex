@@ -32,7 +32,7 @@ export const DEMO_BOTS: DemoBot[] = [
     botHello: "Hello! How can I assist you today?",
     context: [],
     modelConfig: {
-      model: "gpt-4-1106-preview",
+      model: "gpt-3.5-turbo",
       temperature: 0.5,
       maxTokens: 4096,
       sendMemory: true,
@@ -52,7 +52,7 @@ export const DEMO_BOTS: DemoBot[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4-1106-preview",
+      model: "gpt-3.5-turbo",
       temperature: 0.1,
       maxTokens: 4096,
       sendMemory: true,
@@ -73,7 +73,7 @@ export const DEMO_BOTS: DemoBot[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4-1106-preview",
+      model: "gpt-3.5-turbo",
       temperature: 0.1,
       maxTokens: 4096,
       sendMemory: true,
@@ -94,7 +94,7 @@ export const DEMO_BOTS: DemoBot[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4-1106-preview",
+      model: "gpt-3.5-turbo",
       temperature: 0.1,
       maxTokens: 4096,
       sendMemory: true,
